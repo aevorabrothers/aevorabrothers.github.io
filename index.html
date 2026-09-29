@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>AEVORA BROTHERS — Keep What Matters Close</title>
+<meta name="description" content="AEVORA BROTHERS — Personalized jewellery, photo keepsakes, bracelets and meaningful gifts.">
+<style>
+:root{--ivory:#f8f5ef;--black:#171717;--gold:#c7a66a;--rose:#d9b8b5;--taupe:#b8aea2;--white:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;font-family:Arial,sans-serif;background:var(--ivory);color:var(--black)}
+h1,h2,h3,.brand{font-family:Georgia,serif}
+a{text-decoration:none;color:inherit}
+header{position:sticky;top:0;z-index:10;background:rgba(248,245,239,.95);backdrop-filter:blur(10px);border-bottom:1px solid #e5ded2}
+.nav{max-width:1150px;margin:auto;padding:18px 22px;display:flex;align-items:center;justify-content:space-between}
+.brand{font-size:25px;letter-spacing:7px;font-weight:500}
+nav{display:flex;gap:25px;font-size:13px;letter-spacing:1px}
+.menu{display:none;border:0;background:none;font-size:25px}
+.hero{min-height:78vh;display:grid;place-items:center;text-align:center;padding:80px 20px;background:radial-gradient(circle at 50% 20%,#fff,#f8f5ef 60%)}
+.monogram{font-family:Georgia,serif;font-size:85px;color:var(--gold);line-height:1}
+.hero h1{font-size:clamp(48px,9vw,100px);letter-spacing:13px;margin:18px 0 8px}
+.hero p{font-size:18px;letter-spacing:3px;margin:0 0 32px}
+.btn{display:inline-block;background:var(--black);color:#fff;padding:15px 27px;margin:5px;border-radius:2px;font-size:12px;letter-spacing:2px}
+.btn.light{background:transparent;color:var(--black);border:1px solid var(--black)}
+section{max-width:1150px;margin:auto;padding:80px 22px}
+.center{text-align:center}
+.kicker{font-size:11px;letter-spacing:4px;color:#8d7956;text-transform:uppercase}
+h2{font-size:42px;font-weight:400;margin:12px 0 18px}
+.lead{max-width:650px;margin:0 auto;line-height:1.8;color:#555}
+.products{display:grid;grid-template-columns:repeat(4,1fr);gap:18px;margin-top:40px}
+.card{background:#fff;border:1px solid #e9e2d8;overflow:hidden}
+.card .pic{height:260px;background:linear-gradient(135deg,#eee7dc,#d9cbb7);display:grid;place-items:center;font-family:Georgia,serif;font-size:42px;color:#806b47}
+.card .info{padding:20px}.card h3{margin:0 0 7px;font-size:21px;font-weight:400}.price{font-weight:bold;margin:8px 0;color:#806b47}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;margin-top:40px}
+.step{padding:28px;background:#fff;border:1px solid #e9e2d8}.num{font-family:Georgia,serif;color:var(--gold);font-size:30px}
+.step h3{font-weight:400}.step p{color:#666;line-height:1.6;font-size:14px}
+.banner{background:var(--black);color:#fff;max-width:none;text-align:center;padding:85px 22px}
+.banner h2{color:#fff}.banner p{color:#ddd}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+form{display:grid;gap:12px}input,textarea,select{padding:14px;border:1px solid #d8d0c4;background:#fff;font:inherit}textarea{min-height:120px}
+footer{background:#111;color:#eee;text-align:center;padding:45px 20px}.footer-brand{font-family:Georgia,serif;letter-spacing:6px;font-size:24px}.social{margin-top:15px;color:#c7a66a}
+@media(max-width:800px){nav{display:none}.menu{display:block}.products{grid-template-columns:1fr 1fr}.steps{grid-template-columns:1fr 1fr}.contact{grid-template-columns:1fr}}
+@media(max-width:520px){.hero{min-height:70vh}.hero h1{letter-spacing:7px}.products,.steps{grid-template-columns:1fr}.brand{font-size:20px;letter-spacing:4px}}
+</style>
+</head>
+<body>
+<header>
+<div class="nav">
+<a class="brand" href="#home">AEVORA</a>
+<button class="menu" onclick="document.querySelector('nav').style.display=document.querySelector('nav').style.display==='flex'?'none':'flex'">☰</button>
+<nav>
+<a href="#shop">SHOP</a><a href="#custom">CUSTOMIZE</a><a href="#about">ABOUT</a><a href="#contact">CONTACT</a>
+</nav>
+</div>
+</header>
+
+<main>
+<section class="hero" id="home">
+<div>
+<div class="monogram">AE</div>
+<h1>AEVORA</h1>
+<p>Keep What Matters Close.</p>
+<a class="btn" href="#shop">SHOP NOW</a>
+<a class="btn light" href="#custom">CREATE YOURS</a>
+</div>
+</section>
+
+<section id="about" class="center">
+<div class="kicker">Our Story</div>
+<h2>More Than Jewellery.</h2>
+<p class="lead">A photograph captures a moment. AEVORA BROTHERS turns that moment into something you can keep close. Discover personalized jewellery, bracelets and keepsakes made around the people and memories that matter.</p>
+</section>
+
+<section id="shop">
+<div class="center"><div class="kicker">The Collection</div><h2>Made From Your Memories</h2></div>
+<div class="products">
+<article class="card"><div class="pic">♡</div><div class="info"><h3>Memory Pendant</h3><p>Personalized photo jewellery.</p><div class="price">Custom Price</div><a class="btn" href="#custom">Customize</a></div></article>
+<article class="card"><div class="pic">∞</div><div class="info"><h3>Together Bracelet</h3><p>A keepsake for two.</p><div class="price">Custom Price</div><a class="btn" href="#custom">Customize</a></div></article>
+<article class="card"><div class="pic">♡</div><div class="info"><h3>Memory Ring</h3><p>A little memory, kept close.</p><div class="price">Custom Price</div><a class="btn" href="#custom">Customize</a></div></article>
+<article class="card"><div class="pic">✦</div><div class="info"><h3>Friendship Bracelet</h3><p>Made for meaningful bonds.</p><div class="price">Custom Price</div><a class="btn" href="#custom">Customize</a></div></article>
+</div>
+</section>
+
+<div class="banner" id="custom">
+<div class="kicker">Personalize Your Piece</div>
+<h2>Your Memory. Your Story. Your AEVORA.</h2>
+<p>Choose your product and tell us what you want personalized.</p>
+<a class="btn" style="background:#c7a66a;color:#171717" href="#contact">START YOUR ORDER</a>
+</div>
+
+<section>
+<div class="center"><div class="kicker">How It Works</div><h2>From Memory to Keepsake</h2></div>
+<div class="steps">
+<div class="step"><div class="num">01</div><h3>Choose Your Piece</h3><p>Select a necklace, bracelet, ring or gift.</p></div>
+<div class="step"><div class="num">02</div><h3>Share Your Memory</h3><p>Send your photo and personalization details through WhatsApp.</p></div>
+<div class="step"><div class="num">03</div><h3>We Create It</h3><p>We prepare your personalized keepsake.</p></div>
+<div class="step"><div class="num">04</div><h3>Keep It Close</h3><p>Your finished piece is packed and sent to you.</p></div>
+</div>
+</section>
+
+<section id="contact">
+<div>
+<div class="kicker">Get In Touch</div><h2>Create Your Memory</h2>
+<p class="lead" style="margin:0">Fill in the details and use the button to send your enquiry directly on WhatsApp.</p>
+</div>
+<form onsubmit="sendWhatsApp(event)">
+<input id="name" required placeholder="Your name">
+<input id="phone" required placeholder="Your phone number">
+<select id="product"><option>Memory Pendant</option><option>Together Bracelet</option><option>Memory Ring</option><option>Friendship Bracelet</option><option>Other</option></select>
+<textarea id="message" placeholder="Tell us what you would like personalized"></textarea>
+<button class="btn" type="submit">SEND ON WHATSAPP</button>
+</form>
+</section>
+</main>
+
+<footer>
+<div class="footer-brand">AEVORA BROTHERS</div>
+<p>Keep What Matters Close.</p>
+<div class="social">Instagram • WhatsApp • Personalized Jewellery & Gifts</div>
+<p style="font-size:12px;color:#888;margin-top:25px">© 2026 AEVORA BROTHERS. All rights reserved.</p>
+</footer>
+
+<script>
+function sendWhatsApp(e){
+ e.preventDefault();
+ const name=document.getElementById('name').value;
+ const phone=document.getElementById('phone').value;
+ const product=document.getElementById('product').value;
+ const message=document.getElementById('message').value;
+ // Replace 91XXXXXXXXXX with your AEVORA BROTHERS WhatsApp number.
+ const businessNumber='91XXXXXXXXXX';
+ const text=`Hello AEVORA BROTHERS!%0A%0AName: ${encodeURIComponent(name)}%0APhone: ${encodeURIComponent(phone)}%0AProduct: ${encodeURIComponent(product)}%0AMessage: ${encodeURIComponent(message)}`;
+ window.open(`https://wa.me/${businessNumber}?text=${text}`,'_blank');
+}
+</script>
+</body>
+</html>
